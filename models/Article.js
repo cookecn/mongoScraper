@@ -11,6 +11,9 @@ var ArticleSchema = new Schema({
     type: String,
     required: true
   },
+  summary: {
+      type: String
+  },
   // `link` is required and of type String
   link: {
     type: String,
@@ -22,7 +25,15 @@ var ArticleSchema = new Schema({
   note: {
     type: Schema.Types.ObjectId,
     ref: "Note"
-  }
+  },
+  saved: {
+      type: Boolean,
+      default: false
+  },
+  notes: [{
+      type: Schema.Types.ObjectId,
+      ref: "Note"
+  }]
 });
 
 // This creates our model from the above schema, using mongoose's model method
