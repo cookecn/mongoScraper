@@ -1,15 +1,64 @@
 body {
-    background-color: darkgrey;
-    padding-top: 70px;
+    background-color: darkcyan;
+}
+
+.navbar {
+    height: 110px;
+}
+
+.nav-link {
+    color: greenyellow;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.jumbotron {
+    margin-top: 10px;
+    background-color: black;
+}
+
+h1 {
+    color: lightcoral;
+}
+
+.panel.panel-default {
+    background-color: white;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 25px;
+    border: 2px solid lightcoral;
+}
+
+.addNote {
+    margin-bottom: 10px;
+}
+
+.save {
+    margin-bottom: 10px;
+}
+
+.delete {
+    margin-bottom: 10px;
 }
 
 .deleteNote {
-	display: inline-block;
+    display: inline-block;
 }
 
 .previousNotes {
     display: inline-block;
     width: 90%
+}
+
+.close {
+    margin: 0px;
+}
+
+.modal-header {
+    text-align: center;
 }
 
 #scrape {

@@ -219,7 +219,7 @@ app.delete("/notes/delete/:note_id/:article_id", function(req, res) {
       console.log(err);
       res.send(err);
     } else {
-      db.Article.findOneAndUpdate({ "_id": req.params.article_id }, {$pull: {"notes": req.params.note_id}})
+      Article.findOneAndUpdate({ "_id": req.params.article_id }, {$pull: {"notes": req.params.note_id}})
       .then(function(dbNote) {
         res.send("Note Deleted");
       })
