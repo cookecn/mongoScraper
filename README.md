@@ -1,4 +1,4 @@
-![Mongo Scraper](../public/images/mongoScraper.gif)
+![Mongo Scraper](./images/mongoScraper.gif)
 
 # mongo-web-scrape
 Homework for Vanderbilt Trilogy coding bootcamp
