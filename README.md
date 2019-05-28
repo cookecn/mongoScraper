@@ -10,10 +10,9 @@ Homework for Vanderbilt Trilogy coding bootcamp
 *Node, Express, Express-Handlebars, Morgan, MongoDB, 
 
 # Github Links to projects:
-* 
+* https://github.com/cookecn/mongoScraper
 # Heroku Deployed Website
-
-#
+* https://cookecn-mongo-scraper.herokuapp.com/
 
 # Step-by-step!
 1. Clone the repo on to your computer, and open it with your code editor.
